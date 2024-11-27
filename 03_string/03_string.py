@@ -1,5 +1,6 @@
-# 3.파이썬 문자열 
-# 문자열은 슬라이싱 기능과 다양한 메서드를 제공함
+# 3. 파이썬 문자열 
+# 문자열은 슬라이싱 기능과 다양한 메서드를 제공 함
+# 문자열은 수정이 불가능함
 # - 슬라이싱 : 문자열에서 여러 글자를 가져오는 것 // [ : : ] 사용
 # - 인덱싱 : 문자열을 한글자만 가져오는 것 // [] 사용
 
@@ -39,19 +40,19 @@ print(phone_number25.replace("-", " ")) # replace 메서드 사용하여 하이�
 # 풀이 : replace 메서드를 사용하면 문자열의 일부를 치환할 수 있음(문자열은 수정 불가능)
 # 결과물 : 010 1111 2222
 
-# 026
+# 026 replace
 phone_number26 = "010-1111-2222" # 01011112222가 출력되어야 함 
 print(phone_number26.replace('-', ''))
 # 풀이 : replace 메서드 사용하여 하이푼(-)만 제거함
 # 결과물 : 01011112222
 
-# 027 *정답확인
+# 027 split( *답안확인
 url27 = "http://sharebook.kr" #설명 : 도메인 kr만 출력
 url27_split =url27.split('.') #. 제거
 print(url27_split[-1]) #인덱싱을 사용하여 뒤에서 0,1번째인 kr만 출력됨
 # 결과물 : kr
 
-# 028
+# 028 인덱싱
 # lang = 'python' 
 # lang[0] = 'P' 
 # print(lang) #문자열은 수정 불가능 
@@ -64,14 +65,14 @@ print(url27_split[-1]) #인덱싱을 사용하여 뒤에서 0,1번째인 kr만 �
 #     ~~~~^^^
 # TypeError: 'str' object does not support item assignment
 
-# 029 *정답확인
+# 029 replace *답안확인
 string29 = 'abcdfe2a354a32a' # 예상 Abcdfe2A354A32A
 string29_2 = string29.replace('a', 'A') # 소문자 a를 대문자 A로 변경
 print(string29_2)
 # 풀이 : replace 함수는 문자열 변경을 변경해줌 -> 함수명.replace('변경 전','변경 후')
 # 결과물 : Abcdfe2A354A32A
 
-# 030 *정답확인
+# 030 replace *답안확인
 string30 = 'abcd'
 string30_1 = string30.replace('b', 'B') #소문자 b를 대문자 B로 변경
 print(string30_1) # 'abcd' -> 'aBcd'로 예상 

@@ -1,7 +1,7 @@
 # 3.파이썬 문자열 
 # 031~040
 
-# 031
+# 031 
 a = "3" #문자 3
 b = "4" #뮨자 4
 print(a + b) # 예상 결과 : 34 
@@ -15,7 +15,7 @@ print("Hi" * 3) # 예산 결과 : HiHiHi
 
 # 033
 print("-" * 80)# - 80개 출력 
-# 풀이 : 문자열 -을 80번 곱함
+# 풀이 : 문자열 -을 80번 반복함
 # 결과물 : --------------------------------------------------------------------------------
 
 # 034
@@ -23,7 +23,7 @@ t1 = 'python' # python java python java python java python java이 출력되야 
 t2 = 'java' 
 t3= t1+" "+t2 #python + (공백) + javapython 
 print(t3*4) 
-# 풀이 : # * 연산자로 위 t3를 4번 곱함
+# 풀이 : # * 연산자로 위 t3를 4번 반복함
 # 결과물 : python javapython javapython javapython java
 
 # 035 % formatting 메서드 중 %s, %d

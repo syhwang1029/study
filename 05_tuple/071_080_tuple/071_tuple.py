@@ -8,6 +8,6 @@ my_variable = ()
 print(my_variable) 
 print(type(my_variable)) #타입확인용
 
-# 풀이 : 튜플의 기본 형식은 변수명 = () 이지만, 소괄호() 생략도 가능함
+# 풀이 : 튜플의 기본 형식은 변수명 = () 이지만, 소괄호() 생략도 가능함.
 # 결과 : ()
 # <class 'tuple'>

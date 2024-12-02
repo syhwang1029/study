@@ -1,9 +1,9 @@
-# 268 class ¸Ş¼­µå Ãß°¡
+# 268 class ë©”ì„œë“œ ì¶”ê°€
 
-# Å¬·¡½º Á¤ÀÇ 
+# í´ë˜ìŠ¤ ì •ì˜ 
 class Stock:
-    # »ı¼ºÀÚ Á¤ÀÇ
-    # Á¾¸ñ¸í, Á¾¸ñÄÚµå, PER, PBR, ¹è´ç¼öÀÍ·ü »ı¼ºÀÚ
+    # ìƒì„±ì ì •ì˜
+    # ì¢…ëª©ëª…, ì¢…ëª©ì½”ë“œ, PER, PBR, ë°°ë‹¹ìˆ˜ìµë¥  ìƒì„±ì
     def __init__(self, name, code, per, pbr,dividend ):
         self.name = name
         self.code = code 
@@ -17,15 +17,15 @@ class Stock:
     def set_code(self, code):
         self.code = code
     
-    # PER ¸Ş¼­µå Ãß°¡ 
+    # PER ë©”ì„œë“œ ì¶”ê°€ 
     def set_per(self, per):
         self.per = per
     
-    # PBR ¸Ş¼­µå Ãß°¡
+    # PBR ë©”ì„œë“œ ì¶”ê°€
     def set_pbr(self, pbr):
         self.pbr = pbr     
 
-    # ¹è´Ş¼öÀÍ·ü ¸Ş¼­µå Ãß°¡
+    # ë°°ë‹¬ìˆ˜ìµë¥  ë©”ì„œë“œ ì¶”ê°€
     def set_dividend(self, dividend):
         self.dividend = dividend
 

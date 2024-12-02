@@ -2,8 +2,10 @@
 
 # 모듈 가져오기
 import numpy 
+
 # numpy 모듈 설치 명령어 
-# [ pip install numpy] 
+# [ pip install numpy ] 
+# 참고 사이트 : https://wikidocs.net/227329
 
 # 0.0부터 0.5까지 0.1씩 증가
 for a in numpy.arange(0, 5, 0.1):

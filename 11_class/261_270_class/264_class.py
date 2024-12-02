@@ -8,6 +8,7 @@ class Stock:
         self.code = code
 
     # 메서드 추가
+    # self로 영역 구분
     def set_code(self, code):
         self.code = code
 

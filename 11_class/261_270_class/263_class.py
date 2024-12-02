@@ -13,6 +13,7 @@ class Stock:
 
 # 객체 정의
 # 초기화 
+# None은 아무것도 없음을 의미함
 a = Stock(None, None)
 
 # 메서드 호출

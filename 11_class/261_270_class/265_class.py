@@ -1,4 +1,5 @@
 # 265 class 메서드 3
+# *답안 확인
 
 # 클래스 정의 
 class Stock:
@@ -16,6 +17,11 @@ class Stock:
     def set_code(self, code):
         self.code = code
 
+    # 메서드 업데이트
+    def up_info(self, name, code):
+        self.name = name 
+        self.code = code
+     
     # 종목명 업데이트
     def get_name(self):
         return self.name
@@ -30,12 +36,11 @@ samsung  = Stock('삼성전자', '005980')
 print(samsung.name)
 print(samsung.code)
 
-# 업데이트 속성 호출
-print(samsung.get_name())
-print(samsung.get_code())
+# 메서드 업데이트
+samsung.up_info('삼성전자(수정)', '005980(수정)')
+print('종목 업데이트 : ',samsung.name, samsung.code)
 
 # 결과 :
 # 삼성전자
 # 005980
-# 삼성전자
-# 005980
+# 종목 업데이트 :  삼성전자(수정) 005980(수정)

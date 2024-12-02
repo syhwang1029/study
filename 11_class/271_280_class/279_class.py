@@ -1,4 +1,5 @@
-# 279 class 
+# 279 class 객체 순회
+
 # 랜덤 모듈
 import random
 # 은행 클래스

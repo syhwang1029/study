@@ -1,9 +1,10 @@
-# 242 module ÇöÀç ½Ã°¢
-# ¸ðµâ °¡Á®¿À±â
+# 242 module í˜„ìž¬ ì‹œê°
+
+# ëª¨ë“ˆ ê°€ì ¸ì˜¤ê¸°
 import datetime
 
-# now º¯¼ö¿¡ ÇöÀç ½Ã°£ ÀúÀå
+# now ë³€ìˆ˜ì— í˜„ìž¬ ì‹œê°„ ì €ìž¥
 now = datetime.datetime.now()
-# ÇöÀç ½Ã°¢ Ãâ·Â(¹ÝÈ¯ °ª)
-print(type(now)) # Å¸ÀÔ È®ÀÎ
-# °á°ú : <class 'datetime.datetime'>
+# í˜„ìž¬ ì‹œê° ì¶œë ¥(ë°˜í™˜ ê°’)
+print(type(now)) # íƒ€ìž… í™•ì¸
+# ê²°ê³¼ : <class 'datetime.datetime'>

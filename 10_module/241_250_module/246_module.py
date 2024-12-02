@@ -1,17 +1,17 @@
-# 246 module *´ä¾È È®ÀÎ
+# 246 module *ë‹µì•ˆ í™•ì¸
 
-# ¸ðµâ °¡Á®¿À±â 
+# ëª¨ë“ˆ ê°€ì ¸ì˜¤ê¸° 
 import time 
 import datetime
 
 while True:
     now = datetime.datetime.now()
-    # ÇöÀç ½Ã°£¿¡¼­ 1ÃÊ´ç ½Ã°£ °ª È£Ãâ
+    # í˜„ìž¬ ì‹œê°„ì—ì„œ 1ì´ˆë‹¹ ì‹œê°„ ê°’ í˜¸ì¶œ
     time.sleep(1)
-    # °á°ú°ª Ãâ·Â
+    # ê²°ê³¼ê°’ ì¶œë ¥
     print(now)
 
-# °á°ú :
+# ê²°ê³¼ :
 # 2024-12-01 17:32:03.168861
 # 2024-12-01 17:32:04.178955
 # 2024-12-01 17:32:05.186813

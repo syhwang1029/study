@@ -58,6 +58,9 @@ class Stock:
 event = []
 # 객체 정의
 # 속성 정의
+
+# 3종목 리스트
+# 종목명, 종목코드, PER, PBR, 배당수익률 속성값
 # 삼성전자 
 samsung = Stock('삼성전자','005930',15.79,1.33,2.83)
 # 현대차 
@@ -65,6 +68,7 @@ hyundai = Stock('현대차','005380',8.70,0.35,4.27)
 # LG전자 
 lg = Stock('LG전자','066570',317.34,0.69,1.37)
 
+# 각 리스트 메서드 속성값
 event.append(samsung)
 event.append(hyundai)
 event.append(lg)

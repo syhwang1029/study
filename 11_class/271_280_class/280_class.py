@@ -1,6 +1,4 @@
 # 280 class 입출력 내역 
-# 279 class 
-
 
 # 랜덤 모듈
 import random

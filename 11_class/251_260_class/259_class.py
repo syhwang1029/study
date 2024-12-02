@@ -19,7 +19,7 @@ class Human:
         print("이름 : {} 나이{} 성별 {}".format(self.name, self.age, self.gender))
 
     # 메서드2 정의
-    # 이름, 나이, 성별이라는 속성
+    # 이름, 나이, 성별 
     def setInfo(self, name, age, gander):
         self.name = name
         self.age = age

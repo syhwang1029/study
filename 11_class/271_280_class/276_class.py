@@ -1,14 +1,11 @@
-# 276 class 정보 출력 메서드
+ # 276 class 정보 출력 메서드
 # *답안 확인
-
 # 랜덤 모듈
 import random
-
 # 은행 클래스
 class Account:
     # 계좌 객체의 개수 
     cnt = 0
-
     # 메서드 정의
     # 예금주명, 통장잔액
     def __init__(self, name, num):
@@ -22,16 +19,13 @@ class Account:
         num1 = random.randint(0, 999)
         num2 = random.randint(0, 99)
         num3 = random.randint(0, 999999)
-
         # 계좌번호  
         # 3자리-2자리-6자리
         num1 = str(num1).zfill(3)      
         num2 = str(num2).zfill(2)      
         num3 = str(num3).zfill(6)      
-
         # 계좌번호
         self.account_number = num1 + '-' + num2 + '-' + num3  
-
         # 계좌 객체의 갯수
         Account.cnt += 1
     
@@ -39,7 +33,6 @@ class Account:
     @classmethod
     def get_account_num(clsm):
             print(clsm.cnt)
-
     # 입금 메서드 
     def deposit(self, amount):
         if amount >= 1:
@@ -60,7 +53,6 @@ class Account:
         self.account_number = account_number #계좌번호 랜덤생성
         self.num = num    
         # print("잔고: ", f"{self.balance:,}")
-
 # Account 인스턴스 정보 
 python = Account('파이썬',f'{1000000: ,}')
 print('은행이름: ', python.bank, 

@@ -3,7 +3,7 @@
 # Stock 클래스 정의
 class Stock:
     # 메서드 정의
-    # 종목명과 종목코드 속성 생성
+    # 종목명과 종목코드 속성 
     def __init__(self, name, code):
         self.name = name
         self.code = code

@@ -1,4 +1,4 @@
-# 277 class 이자지급
+# 277 class 이자 지급
 
 # 랜덤 모듈
 import random
@@ -41,8 +41,15 @@ class Account:
 
     # 입금 메서드 
     def deposit(self, amount):
+
         if amount >= 1:
             self.num += amount
+            
+            # 입금횟수 5회마다 1%의 이자 지급
+            self.cnt += 1
+            # 입금 숫자
+            if self.cnt % 5 == 0 :
+                self.num = (self.num *1.01) 
     
     # 출금 메서드 추가
     def withdraw(self, amount):
@@ -58,11 +65,23 @@ class Account:
         self.name = name
         self.account_number = account_number #계좌번호 랜덤생성
         self.num = num    
-        # print("잔고: ", f"{self.balance:,}")
+        # print("잔고: ", f"{self.num:,}")
 
 # Account 인스턴스 정보 
-python = Account('파이썬',f'{1000000: ,}')
+python = Account('파이썬', 1)
+python.deposit(10) # 5회 입금시마다 1% 이자 입금
+python.deposit(10)
+python.deposit(10)
+python.deposit(10)
+python.deposit(10)
+python.deposit(10)
 print('은행이름: ', python.bank, 
       '\n예금주:', python.name, 
       '\n계좌번호: ', python.account_number)
 print('잔고:', python.num, '원') #3자리 수마다 콤마로 구분(,)
+
+# 결과 : 
+# 은행이름:  SC은행 
+# 예금주: 파이썬 
+# 계좌번호:  512-65-909770
+# 잔고: 61.410000000000004 원

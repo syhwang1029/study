@@ -7,6 +7,7 @@
 class Stock:
     pass
 
+
 print(type(Stock)) # 타입 확인용
 
 # 결과 : <class 'type'>

@@ -20,7 +20,7 @@ class Stock:
     def set_per(self, per):
         self.per = per
 
-    # PBR 메서드 
+    # PBR 메서드 업데이트 
     def set_pbr(self, pbr):
         self.pbr = pbr     
 
@@ -36,7 +36,10 @@ class Stock:
 
 # 기존 객체 
 samsung = Stock("삼성전자", "005930", 15.79, 1.33, 2.83)
-# PER 객체 속성 수정
+# PER 객체 속성 업데이트 
 samsung.set_per(12.75)
-# 속성 호출
+# 업데이트한 속성값 출력
 print(samsung.per)
+
+# 결과 : 
+#  12.75

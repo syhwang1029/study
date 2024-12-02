@@ -1,10 +1,10 @@
-# 266 class °´Ã¼ÀÇ ¼Ó¼º°ª ¾÷µ¥ÀÌÆ®
-# *´ä¾È È®ÀÎ 
+# 266 class ê°ì²´ì˜ ì†ì„±ê°’ ì—…ë°ì´íŠ¸
+# *ë‹µì•ˆ í™•ì¸ 
 
-# Å¬·¡½º Á¤ÀÇ 
+# í´ë˜ìŠ¤ ì •ì˜ 
 class Stock:
-    # »ı¼ºÀÚ Á¤ÀÇ
-    # Á¾¸ñ¸í, Á¾¸ñÄÚµå, PER, PBR, ¹è´ç¼öÀÍ·ü »ı¼ºÀÚ
+    # ìƒì„±ì ì •ì˜
+    # ì¢…ëª©ëª…, ì¢…ëª©ì½”ë“œ, PER, PBR, ë°°ë‹¹ìˆ˜ìµë¥  ìƒì„±ì
     def __init__(self, name, code, per, pbr, money):
         self.name = name
         self.code = code 
@@ -12,19 +12,19 @@ class Stock:
         self.pbr = pbr 
         self.money = money
     
-    # Á¾¸ñ¸í ¸Ş¼­µå Ãß°¡
+    # ì¢…ëª©ëª… ë©”ì„œë“œ ì¶”ê°€
     def set_name(self, name):
         self.name = name
 
-    # Á¾¸ñÄÚµå ¸Ş¼­µå Ãß°¡ 
+    # ì¢…ëª©ì½”ë“œ ë©”ì„œë“œ ì¶”ê°€ 
     def set_code(self, code):
         self.code = code
     
     
-    # Á¾¸ñ¸í ¼Ó¼º ¾÷µ¥ÀÌÆ® 
+    # ì¢…ëª©ëª… ì†ì„± ì—…ë°ì´íŠ¸ 
     def get_name(self):
         return self.name
     
-    # Á¾¸ñÄÚµå ¼Ó¼º ¾÷µ¥ÀÌÆ®
+    # ì¢…ëª©ì½”ë“œ ì†ì„± ì—…ë°ì´íŠ¸
     def get_code(self):
         return self.code

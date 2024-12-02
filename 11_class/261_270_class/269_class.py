@@ -1,9 +1,9 @@
-# 269 class °´Ã¼ÀÇ ¼Ó¼º ¼öÁ¤ 
+# 269 class ê°ì²´ì˜ ì†ì„± ìˆ˜ì • 
 
-# Stock Å¬·¡½º Á¤ÀÇ 
+# Stock í´ë˜ìŠ¤ ì •ì˜ 
 class Stock:
-    # »ı¼ºÀÚ Á¤ÀÇ
-    # Á¾¸ñ¸í, Á¾¸ñÄÚµå, PER, PBR, ¹è´ç¼öÀÍ·ü »ı¼ºÀÚ
+    # ìƒì„±ì ì •ì˜
+    # ì¢…ëª©ëª…, ì¢…ëª©ì½”ë“œ, PER, PBR, ë°°ë‹¹ìˆ˜ìµë¥  ìƒì„±ì
     def __init__(self, name, code, per, pbr,dividend ):
         self.name = name
         self.code = code 
@@ -20,7 +20,7 @@ class Stock:
     def set_per(self, per):
         self.per = per
 
-    # PBR ¸Ş¼­µå 
+    # PBR ë©”ì„œë“œ 
     def set_pbr(self, pbr):
         self.pbr = pbr     
 
@@ -34,9 +34,9 @@ class Stock:
     def get_code(self):
         return self.code
 
-# ±âÁ¸ °´Ã¼ 
-samsung = Stock("»ï¼ºÀüÀÚ", "005930", 15.79, 1.33, 2.83)
-# PER °´Ã¼ ¼Ó¼º ¼öÁ¤
+# ê¸°ì¡´ ê°ì²´ 
+samsung = Stock("ì‚¼ì„±ì „ì", "005930", 15.79, 1.33, 2.83)
+# PER ê°ì²´ ì†ì„± ìˆ˜ì •
 samsung.set_per(12.75)
-# ¼Ó¼º È£Ãâ
+# ì†ì„± í˜¸ì¶œ
 print(samsung.per)

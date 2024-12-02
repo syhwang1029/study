@@ -4,10 +4,10 @@
 class Human:
     pass
 
-# 인스턴스 생성 
+# 객체, 즉 인스턴스 생성 
 areum = Human()
 
-# 확인용
+# 결과 확인용
 print(areum)
 
 # 결과 :

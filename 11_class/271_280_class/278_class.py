@@ -1,14 +1,11 @@
 # 278 class 여러 객체 생성 
 #*답안 확인
-
 # 랜덤 모듈
 import random
-
 # 은행 클래스
 class Account:
     # 계좌 객체의 개수 
     cnt = 0
-
     # 메서드 정의
     # 예금주명, 통장잔액
     def __init__(self, name, num):
@@ -22,16 +19,13 @@ class Account:
         num1 = random.randint(0, 999)
         num2 = random.randint(0, 99)
         num3 = random.randint(0, 999999)
-
         # 계좌번호  
         # 3자리-2자리-6자리
         num1 = str(num1).zfill(3)      
         num2 = str(num2).zfill(2)      
         num3 = str(num3).zfill(6)      
-
         # 계좌번호
         self.account_number = num1 + '-' + num2 + '-' + num3  
-
         # 계좌 객체의 갯수
         Account.cnt += 1
     
@@ -39,10 +33,8 @@ class Account:
     @classmethod
     def get_account_num(clsm):
             print(clsm.cnt)
-
     # 입금 메서드 
     def deposit(self, amount):
-
         if amount >= 1:
             self.num += amount
             
@@ -66,7 +58,6 @@ class Account:
         print('예금주명: ', self.name)        
         print('계좌번호: ', self. account_number)
         print("통장잔액: ", f"{self.num:,}", "원")
-
 # 리스트 초기화 저장
 data = []
 # 사용자 1,2,3 정보
@@ -76,13 +67,11 @@ m = Account('문혜림', 30000)
 data.append(p)
 data.append(k)
 data.append(m)
-
 # 사용자들 정보 출력
 print(data)
 print(p.display_info())
 print(k.display_info())
 print(m.display_info())
-
 # 결과 : 
 # [<__main__.Account object at 0x102696900>, <__main__.Account object at 0x1027d16d0>, <__main__.Account object at 0x1027d1810>]
 # 은행명:  SC은행

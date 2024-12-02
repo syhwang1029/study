@@ -3,6 +3,7 @@
 # Humam 클래스 정의 *답안 확인
 class Human:
     # self 로 생성자 정의 
+    # 이름, 나이, 성별 속성
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age

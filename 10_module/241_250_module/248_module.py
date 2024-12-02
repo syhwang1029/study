@@ -1,10 +1,10 @@
-# 248 module ÇöÀç µð·ºÅä¸® °æ·Î 
-# ¸ðµâ °¡Á®¿À±â 
+# 248 module í˜„ìž¬ ë””ë ‰í† ë¦¬ ê²½ë¡œ 
+# ëª¨ë“ˆ ê°€ì ¸ì˜¤ê¸° 
 import os 
 
-# getcwd ÇÔ¼ö·Î ÇöÀç µð·ºÅä¸® °æ·Î È£Ãâ
+# getcwd í•¨ìˆ˜ë¡œ í˜„ìž¬ ë””ë ‰í† ë¦¬ ê²½ë¡œ í˜¸ì¶œ
 cwd = os.getcwd()
-# ÇöÀç µð·ºÅä¸® °æ·Î Ãâ·Â
+# í˜„ìž¬ ë””ë ‰í† ë¦¬ ê²½ë¡œ ì¶œë ¥
 print(cwd)
 
-# °á°ú : C:\Users\È²¼­¿µ\Desktop\python_study
+# ê²°ê³¼ : C:\Users\í™©ì„œì˜\Desktop\python_study

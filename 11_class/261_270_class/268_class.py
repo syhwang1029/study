@@ -35,3 +35,10 @@ class Stock:
 
     def get_code(self):
         return self.code
+
+stock = Stock("삼성전자", "005930", 15.79, 1.33, 2.83)
+# 배달 수익률 메서드
+print(stock.dividend) # 결과 확인용
+
+# 결과 :
+# 2.83
